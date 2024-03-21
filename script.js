@@ -122,7 +122,7 @@ const favoritoClicado = (eventoDeClique) => {
         eventoDeClique.target.src = favoriteState.favorited
       } else {
         /* senão, manter a imagem de não favoritado e executar a função de remover
-        do localStorage, passando como parâmetro o id do filme*/
+        do localStorage, passando como parâmetro o id do filme bla bla bla*/
         eventoDeClique.target.src = favoriteState.notFavorited
       }
 
